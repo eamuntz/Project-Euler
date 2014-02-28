@@ -9,14 +9,6 @@ As 12 is the smallest abundant number, 1 + 2 + 3 + 4 + 6 = 16, the smallest numb
 
 Find the sum of all the positive integers which cannot be written as the sum of two abundant numbers.
 '''
-
-# I need to test up to 28123 for part 2
-#generate abundant numbers through 28123
-#		this process can start at 12 and continue through 28111
-#
-
-#find abundant numbers 
-#   factor then add factors
 import math
 
 def factor_sum(number):
